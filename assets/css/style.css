@@ -42,7 +42,7 @@ font-family: 'Rufina', serif;
 body{
 	font-family: 'Poppins', sans-serif;
 	font-size:16px;
-	color:#818998;
+	color: #9aa9c4;
     text-transform:initial;
     max-width:1920px;
     margin:0 auto;
@@ -138,7 +138,7 @@ nav.navbar.bootsnav {
 /*.navbar-brand*/
 .navbar-header a.navbar-brand,.navbar-header a.navbar-brand:hover,.navbar-header a.navbar-brand:focus{
     display: inline-block;
-    color: #fff;
+    color: #00b2ff;
     font-size: 24px;
     letter-spacing: 3px;
     font-family: 'Rufina', serif;
@@ -153,7 +153,7 @@ nav.navbar.bootsnav {
 
 /*.nav li*/
 nav.navbar.bootsnav ul.nav > li > a {
-    color: #f5f7fa;
+    color: #00b2ff;
     font-size: 16px;
     font-weight: 500;
     text-transform:uppercase;
@@ -226,7 +226,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
 .welcome-hero-txt{text-align: center;padding:290px 0 372px;}
 .welcome-hero-txt h2 {
     font-size: 42px;
-    color: #fff;
+    color: #00b2ff;
     font-weight: 700;
     text-transform: uppercase;
     margin-bottom: 45px;
@@ -234,7 +234,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
 .welcome-hero-txt p {
     font-size: 18px;
     text-transform: initial;
-    color: #fff;
+    color: #ffffff;
     font-weight: 500;
     max-width: 735px;
     margin: 0 auto;
@@ -244,7 +244,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
     width: 230px;
     height: 60px;
     background: #4e4ffa;
-    color: #fff;
+    color: #ffffff;
     border-radius: 3px;
     margin-top: 55px;
     -webkit-transition: .3s linear; 
@@ -254,7 +254,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
     transition: .3s linear;
 }
 .welcome-btn:hover{
-    background: #0102fa;
+    background: #3030ea;
 }
 /*.welcome-hero-txt*/
 
@@ -497,7 +497,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
 /*testimonial-description*/
 .single-testimonial-box:hover h2 a,.single-testimonial-box:hover h4, .single-testimonial-box:hover p{color: #fff;}
 .single-testimonial-box:hover{
-    background: #4e4ffa;
+    background: #00b2ff;
     border: 1px solid #4e4ffa;
     box-shadow: 0 12px 30px 0px rgba(0,1,193,.2);
 }

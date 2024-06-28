@@ -2,95 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="019c8026-7059-48d5-9339-540a563f54be" name="Changes" comment="NEW WEBSITE">
-      <change afterPath="$PROJECT_DIR$/assets/images/welcome-hero/cam.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/animate.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/bootsnav.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/flaticon.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/linearicons.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/owl.carousel.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/owl.theme.default.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/responsive.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Flaticon.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Flaticon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Flaticon.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Flaticon.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Linearicons-Free.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Linearicons-Free.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Linearicons-Free.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Linearicons-Free.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/Linearicons-Free.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/brand/br1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/brand/br2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/brand/br3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/brand/br4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/brand/br5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/brand/br6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/clients/c1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/clients/c2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/clients/c3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/featured-cars/fc1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/featured-cars/fc2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/featured-cars/fc3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/featured-cars/fc4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/featured-cars/fc5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/featured-cars/fc6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/featured-cars/fc7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/featured-cars/fc8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/new-cars-model/ncm1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/new-cars-model/ncm2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/new-cars-model/ncm3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/welcome-hero/welcome-banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/bootsnav.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/custom.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/feather.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/owl.carousel.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/logo/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Cam.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/cam.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/brand/br1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/brand/br2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/brand/br3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/brand/br4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/brand/br5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/brand/br6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/clients/c1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/clients/c2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/clients/c3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/emma.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/emma.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/featured-cars/fc1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/featured-cars/fc2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/featured-cars/fc3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/featured-cars/fc4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/featured-cars/fc5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/featured-cars/fc6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/featured-cars/fc7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/featured-cars/fc8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/jazandemma.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/bvaa.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/lyssa.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/lyss.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/madisonandalyiah.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/madi.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/new-cars-model/ncm1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/new-cars-model/ncm2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/new-cars-model/ncm3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/vail.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/vail.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/welcome-hero/welcome-banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +66,7 @@
       <workItem from="1709841514279" duration="10394000" />
       <workItem from="1710300172950" duration="9000" />
       <workItem from="1710358694771" duration="1349000" />
-      <workItem from="1719539837553" duration="2820000" />
+      <workItem from="1719539837553" duration="3125000" />
     </task>
     <task id="LOCAL-00001" summary="first draft">
       <created>1709849412904</created>
@@ -205,7 +117,28 @@
       <option name="project" value="LOCAL" />
       <updated>1719541592318</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="NEW WEBSITE">
+      <created>1719542894282</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1719542894282</updated>
+    </task>
+    <task id="LOCAL-00009" summary="NEW WEBSITE">
+      <created>1719542910651</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1719542910651</updated>
+    </task>
+    <task id="LOCAL-00010" summary="NEW WEBSITE">
+      <created>1719542987030</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1719542987030</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
