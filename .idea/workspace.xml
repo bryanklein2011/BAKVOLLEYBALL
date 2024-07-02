@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="019c8026-7059-48d5-9339-540a563f54be" name="Changes" comment="NEW WEBSITE">
-      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="019c8026-7059-48d5-9339-540a563f54be" name="Changes" comment="NEW WEBSITE" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,7 +64,7 @@
       <workItem from="1709841514279" duration="10394000" />
       <workItem from="1710300172950" duration="9000" />
       <workItem from="1710358694771" duration="1349000" />
-      <workItem from="1719539837553" duration="3470000" />
+      <workItem from="1719539837553" duration="3652000" />
     </task>
     <task id="LOCAL-00001" summary="first draft">
       <created>1709849412904</created>
@@ -145,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1719543286110</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="NEW WEBSITE">
+      <created>1719543525121</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1719543525122</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
