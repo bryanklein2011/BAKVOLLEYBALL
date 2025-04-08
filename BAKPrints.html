@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BAK Prints | Custom Swag</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap');
+
+    body {
+      margin: 0;
+      font-family: 'Rubik', sans-serif;
+      background-color: #000;
+      color: #00BFFF;
+      padding: 20px;
+      position: relative;
+      overflow-x: hidden;
+    }
+
+    .background-float {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 1000px;
+      height: 1000px;
+      opacity: 0.03;
+      z-index: 0;
+      animation: floatSpin 60s linear infinite;
+      pointer-events: none;
+    }
+
+    @keyframes floatSpin {
+      0% { transform: translate(-50%, -50%) rotate(0deg); }
+      100% { transform: translate(-50%, -50%) rotate(360deg); }
+    }
+
+    header, .intro, .callout, .gallery, .shop, .contact, .nav-buttons {
+      position: relative;
+      z-index: 1;
+    }
+
+    .nav-buttons {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .nav-buttons a {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 20px;
+      background-color: #00BFFF;
+      color: #000;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+
+    .nav-buttons a:hover {
+      background-color: #009acd;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    header h1 {
+      font-size: 3em;
+      color: #00ffff;
+      text-shadow: 2px 2px #444;
+      animation: popIn 1s ease-out forwards;
+    }
+
+    @keyframes popIn {
+      0% { transform: scale(0.8); opacity: 0; }
+      100% { transform: scale(1); opacity: 1; }
+    }
+
+    .intro {
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 1.4em;
+      color: #b2f0ff;
+    }
+
+    .callout {
+      background: linear-gradient(135deg, #00BFFF 20%, #007ACC);
+      color: #000;
+      border-radius: 15px;
+      padding: 25px;
+      margin: 30px auto;
+      max-width: 700px;
+      text-align: center;
+      font-size: 1.4em;
+      font-weight: bold;
+      box-shadow: 0 0 20px #00BFFF66;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      margin-bottom: 40px;
+    }
+
+    .gallery img {
+      width: 100%;
+      max-width: 280px;
+      border-radius: 12px;
+      border: 3px solid #00BFFF;
+      transition: transform 0.4s ease, box-shadow 0.3s;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.1) rotate(-2deg);
+      box-shadow: 0 0 15px #00BFFFaa;
+    }
+
+    .shop {
+      margin-top: 50px;
+      text-align: center;
+    }
+
+    .shop h2 {
+      margin-bottom: 20px;
+      font-size: 2em;
+      color: #00ffff;
+    }
+
+    .product {
+      background-size: cover;
+      background-position: center;
+      color: #fff;
+      border: 2px dashed #00BFFF;
+      border-radius: 15px;
+      padding: 20px;
+      margin: 20px auto;
+      max-width: 320px;
+      text-align: center;
+      box-shadow: 0 0 10px #00BFFF44;
+      transition: transform 0.5s ease, box-shadow 0.5s ease;
+    }
+
+    .product:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 20px #00BFFF;
+    }
+
+    .product h3, .product p {
+      background: rgba(0, 0, 0, 0.7);
+      padding: 5px;
+      border-radius: 8px;
+      display: inline-block;
+    }
+
+    .buy-button {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 12px 24px;
+      background: #00BFFF;
+      color: #000;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      font-size: 1.1em;
+      transition: background 0.3s ease;
+    }
+
+    .buy-button:hover {
+      background-color: #00a4cc;
+    }
+
+    .contact {
+      margin-top: 60px;
+      text-align: center;
+      font-size: 1.2em;
+      background: #111;
+      padding: 20px;
+      border-radius: 12px;
+      border: 1px solid #00BFFF;
+      box-shadow: 0 0 10px #00BFFF44;
+    }
+
+    .contact p {
+      margin: 10px 0;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2.2em;
+      }
+      .intro, .callout {
+        font-size: 1.1em;
+      }
+    }
+  </style>
+</head>
+<body>
+<img src="assets/images/bak.PNG" class="background-float" alt="Floating Background">
+
+<div class="nav-buttons">
+  <a href="index.html">🏠 Home</a>
+</div>
+
+<header>
+  <h1>BAK Prints Custom Swag</h1>
+</header>
+
+<div class="intro">
+  We can create any custom gear you need — shirts, hats, bags, hoodies, and more! Check out our swag portfolio below.
+</div>
+
+<div class="callout">
+  🎨 Got a logo? Send it our way and let’s get your custom swag started! Whether it’s one piece or a full team order — we make it happen, fast and fresh!
+</div>
+
+<div class="gallery">
+  <img src="assets/images/maddie.jpg" alt="Custom Shirt">
+  <img src="https://via.placeholder.com/280x280?text=Hat" alt="Custom Hat">
+  <img src="assets/images/sizzle.jpg" alt="Custom Hoodie">
+  <img src="assets/images/pickleball.jpg" alt="Custom Bag">
+  <img src="https://via.placeholder.com/280x280?text=Mug" alt="Custom Mug">
+  <img src="https://via.placeholder.com/280x280?text=Team+Gear" alt="Team Gear">
+</div>
+
+<div class="shop">
+  <h2>Order Your Gear</h2>
+  <div class="product" style="background-image: url('assets/images/maddie.jpg');">
+    <h3>Custom T-Shirt</h3>
+    <p>$20.00</p>
+    <a class="buy-button" href="#">Order Now</a>
+  </div>
+  <div class="product" style="background-image: url('https://via.placeholder.com/280x200?text=Hat');">
+    <h3>Custom Hat</h3>
+    <p>$15.00</p>
+    <a class="buy-button" href="#">Order Now</a>
+  </div>
+  <div class="product" style="background-image: url('https://via.placeholder.com/280x200?text=Mug');">
+    <h3>Custom Mug</h3>
+    <p>$12.00</p>
+    <a class="buy-button" href="#">Order Now</a>
+  </div>
+</div>
+
+<div class="contact">
+  <h2>Contact Us</h2>
+  <p>Text: <strong>505-310-0047</strong></p>
+  <p>Email: <strong>bakprints@gmail.com</strong></p>
+</div>
+</body>
+</html>

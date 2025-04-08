@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BAK Volleyball | Adult Training</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap');
+
+        body {
+            margin: 0;
+            font-family: 'Rubik', sans-serif;
+            background-color: #000;
+            color: #00BFFF;
+            padding: 20px;
+            overflow-x: hidden;
+        }
+
+        .background-float {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 900px;
+            height: 900px;
+            opacity: 0.03;
+            z-index: 0;
+            animation: spin 60s linear infinite;
+            pointer-events: none;
+        }
+
+        @keyframes spin {
+            0% { transform: translate(-50%, -50%) rotate(0deg); }
+            100% { transform: translate(-50%, -50%) rotate(360deg); }
+        }
+
+        .home-button {
+            position: fixed;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #00BFFF;
+            color: #000;
+            padding: 10px 16px;
+            border-radius: 8px;
+            font-weight: bold;
+            text-decoration: none;
+            z-index: 2;
+            box-shadow: 0 0 10px #00BFFF88;
+            transition: transform 0.3s ease;
+            animation: pulseButton 2s infinite;
+        }
+
+        .home-button:hover {
+            transform: scale(1.1);
+            background-color: #00a4cc;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            z-index: 1;
+            position: relative;
+        }
+
+        header h1 {
+            font-size: 3em;
+            color: #00ffff;
+            animation: fadeSlide 1s ease-out;
+        }
+
+        section {
+            max-width: 900px;
+            margin: 40px auto;
+            background: #111;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 0 10px #00BFFF55;
+            z-index: 1;
+            position: relative;
+        }
+
+        h2 {
+            color: #00ffff;
+            text-align: center;
+            font-size: 2em;
+            animation: fadeSlide 1s ease-out;
+        }
+
+        .signup-button, .groupme-button {
+            display: block;
+            width: fit-content;
+            margin: 10px auto;
+            padding: 12px 24px;
+            background: #00BFFF;
+            color: #000;
+            font-weight: bold;
+            border-radius: 10px;
+            text-decoration: none;
+            box-shadow: 0 0 10px #00BFFF88;
+            animation: pulseButton 2s infinite;
+            transition: transform 0.3s ease;
+        }
+
+        .signup-button:hover, .groupme-button:hover {
+            transform: scale(1.1);
+            background-color: #00a4cc;
+        }
+
+        .carousel {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .carousel-track {
+            display: flex;
+            width: calc(280px * 6);
+            animation: scrollCarousel 20s linear infinite;
+            gap: 15px;
+        }
+
+        .carousel-track img {
+            height: 200px;
+            width: 280px;
+            border-radius: 10px;
+            border: 3px solid #00BFFF;
+            flex-shrink: 0;
+            object-fit: cover;
+        }
+
+        @keyframes scrollCarousel {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-50%); }
+        }
+
+        @keyframes fadeSlide {
+            0% { opacity: 0; transform: translateY(20px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes pulseButton {
+            0% { transform: scale(1); box-shadow: 0 0 10px #00BFFF88; }
+            50% { transform: scale(1.05); box-shadow: 0 0 20px #00BFFFaa; }
+            100% { transform: scale(1); box-shadow: 0 0 10px #00BFFF88; }
+        }
+    </style>
+</head>
+<body>
+<a href="index.html" class="home-button">🏠 Home</a>
+<img src="assets/images/bak.PNG" class="background-float" alt="Floating Volleyball" />
+
+<header>
+    <h1>BAK Adult Volleyball Training</h1>
+</header>
+
+<section>
+    <h2>📸 Gallery</h2>
+    <div class="carousel">
+        <div class="carousel-track">
+            <img src="assets/images/jsoh.jpg" alt="Adult Game 1">
+            <img src="assets/images/si.jpg" alt="Adult Game 2">
+            <img src="assets/images/queens.jpg" alt="Training Session">
+            <img src="assets/images/vail.jpg" alt="Adult Game 1">
+            <img src="assets/images/johnandrich.jpg" alt="Adult Game 2">
+            <img src="assets/images/emma.jpg" alt="Training Session">
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>🏋️ Adult Clinics & Training</h2>
+    <p style="text-align: center; color: #ccc; font-size: 1.1em; max-width: 800px; margin: 0 auto 20px;">
+        Structured sessions with technique development, scrimmages, and professional coaching. Open to players of all skill levels — improve your game with us!
+    </p>
+    <a href="#" class="signup-button">📋 Sign Up for Adult Training</a>
+</section>
+
+<section>
+    <h2>📈 TRU Volley Rankings</h2>
+    <p style="text-align: center; color: #ccc; font-size: 1.1em; margin-bottom: 20px;">Visit TRU Volley to view advanced national player rankings.</p>
+    <a href="https://truvolley.com/ratings" class="signup-button" target="_blank">🔗 View TRU Volley Rankings</a>
+</section>
+
+<section>
+    <h2>📊 Live Rankings Visual</h2>
+    <p style="text-align: center; color: #ccc; font-size: 1.1em; margin-bottom: 20px;">Choose the filter "New Mexico" to see the best players in NM.</p>
+
+    <iframe src="https://bak.volleyballlife.com/rankings/33" width="100%" height="400" style="border:2px solid #00BFFF; border-radius:10px;"></iframe>
+</section>
+
+<section>
+    <h2>💬 Join Our GroupMe Communities</h2>
+    <a href="https://groupme.com/join_group/106803466/8tLwyYTa" class="groupme-button">🏐 NM Volleyball - 4s, 5s, 6s Tournaments</a>
+    <a href="https://groupme.com/join_group/106801703/gwAjIYAJ" class="groupme-button">🏖️ NM Co-ed Beach Volleyball</a>
+    <a href="https://groupme.com/join_group/106801647/aC71kKXH" class="groupme-button">💪 NM Men's Beach Volleyball</a>
+    <a href="https://groupme.com/join_group/106801462/MlKAsU7h" class="groupme-button">👑 NM Women's Beach Volleyball</a>
+    <a href="https://groupme.com/join_group/106801766/RFlAth0Y" class="groupme-button">🔥 NM BAK Adult Training Sessions</a>
+    <a href="https://groupme.com/join_group/106803116/h2gKFifG" class="groupme-button">🏋️ Personal Training</a>
+</section>
+
+<section class="contact">
+    <h2>📬 Contact Us</h2>
+    <a href="mailto:info@bakvolleyball.com" class="signup-button">✉️ Email Us</a>
+    <a href="tel:5053100047" class="signup-button">📱 Call or Text</a>
+</section>
+</body>
+</html>

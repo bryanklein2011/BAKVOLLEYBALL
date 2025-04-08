@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BAK Volleyball | Tournaments</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap');
+
+        body {
+            margin: 0;
+            background-color: #000;
+            color: #00BFFF;
+            font-family: 'Rubik', sans-serif;
+            padding: 20px;
+            box-sizing: border-box;
+            position: relative;
+            overflow-x: hidden;
+        }
+
+        .background-float {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 1000px;
+            height: 1000px;
+            opacity: 0.03;
+            z-index: 0;
+            animation: floatSpin 60s linear infinite;
+            pointer-events: none;
+        }
+
+        @keyframes floatSpin {
+            0% { transform: translate(-50%, -50%) rotate(0deg); }
+            100% { transform: translate(-50%, -50%) rotate(360deg); }
+        }
+
+        header, .tournament-section, .image-scroll, .nav-buttons {
+            position: relative;
+            z-index: 1;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        header h1 {
+            font-size: 3em;
+            color: #00ffff;
+            text-shadow: 2px 2px #444;
+            animation: popIn 1s ease-out forwards;
+        }
+
+        @keyframes popIn {
+            0% { transform: scale(0.8); opacity: 0; }
+            100% { transform: scale(1); opacity: 1; }
+        }
+
+        .nav-buttons {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .nav-buttons a, .scroll-button {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            background-color: #00BFFF;
+            color: #000;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background 0.3s ease;
+            cursor: pointer;
+        }
+
+        .nav-buttons a:hover, .scroll-button:hover {
+            background-color: #009acd;
+        }
+
+        .tournament-section {
+            max-width: 800px;
+            margin: auto;
+            background-color: #111;
+            border: 1px solid #00BFFF;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 15px #00BFFF44;
+        }
+
+        .tournament {
+            margin-bottom: 30px;
+        }
+
+        .tournament h2 {
+            font-size: 1.5em;
+            color: #00ffff;
+        }
+
+        .tournament p {
+            color: #ccc;
+        }
+
+        .register-button {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #00BFFF;
+            color: #000;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background 0.3s ease;
+        }
+
+        .register-button:hover {
+            background-color: #009acd;
+        }
+
+        .image-scroll {
+            margin-top: 50px;
+            text-align: center;
+            position: relative;
+            height: 60vw;
+            max-height: 500px;
+        }
+
+        .image-scroll img {
+            width: 90vw;
+            max-width: 600px;
+            height: auto;
+            border-radius: 10px;
+            border: 2px solid #00BFFF;
+            margin: auto;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+        }
+
+        .image-scroll img.active {
+            opacity: 1;
+            z-index: 1;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2em;
+            }
+
+            .tournament h2 {
+                font-size: 1.2em;
+            }
+
+            .image-scroll {
+                height: auto;
+            }
+
+            .image-scroll img {
+                width: 100vw;
+                max-width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+<img src="assets/images/bak.PNG" class="background-float" alt="Floating Volleyball Background"><img/>
+
+<div class="nav-buttons">
+    <a href="index.html">🏠 Home</a>
+    <span class="scroll-button" onclick="window.scrollTo({top: 0, behavior: 'smooth'});">⬆️ Top</span>
+    <span class="scroll-button" onclick="window.scrollTo({top: document.body.scrollHeight, behavior: 'smooth'});">⬇️ Bottom</span>
+</div>
+
+<header>
+    <h1>BAK Volleyball Tournaments</h1>
+</header>
+
+<div class="tournament-section">
+    <div class="tournament">
+        <h2>🏐 BAK Volleyball Sand Series 2 - April 12th / 13th 🏐</h2>
+        <p>Saturday: Same Gender (12 Men’s and 12 Women’s Teams)<br>
+            Sunday: Reverse Co-ed (Max 20 Teams)</p>
+        <p>💰 Registration Fees:<br>
+            Early Bird: $20 (Register early and save!)<br>
+            Regular: $25<br>
+            Late Entry: $30</p>
+        <p>📍 Location: Stone Face Courts</p>
+        <a class="register-button" href="https://bak.volleyballlife.com/">Register Now</a>
+    </div>
+
+    <div class="tournament">
+        <h2>🏐 BAK Volleyball Prep Weekend 🏐</h2>
+        <p>🗓️ Dates:<br>
+            Saturday: Same Gender (12 Men’s and 12 Women’s Teams)<br>
+            Sunday: Reverse Co-ed (Max 20 Teams)</p>
+        <p>💰 Registration Fees:<br>
+            Early Bird: $20 (Register early and save!)<br>
+            Regular: $25<br>
+            Late Entry: $30</p>
+        <p>📍 Location: Stone Face Courts</p>
+        <a class="register-button" href="https://bak.volleyballlife.com/">Register Now</a>
+    </div>
+
+    <div class="tournament">
+        <h2>Sandia Classic - May 1st - 4th, 2025</h2>
+        <p>🗓️ Dates:<br>
+            Thursday: Dino<br>
+            Friday: Reverse Co-ed / Masters<br>
+            Saturday/Sunday: Same Gender</p>
+        <p>🏆 PRIZE PURSE: $8000</p>
+        <p>💰 Registration Fees:<br>
+            Early Bird: $20 (Register early and save!)<br>
+            Regular: $25<br>
+            Late Entry: $30</p>
+        <p>📍 Location: Stone Face Courts</p>
+        <a class="register-button" href="https://bak.volleyballlife.com/">Register Now</a>
+    </div>
+</div>
+
+<div class="image-scroll">
+    <img src="assets/images/si.jpg" alt="" class="active">
+    <img src="assets/images/johnandrich.jpg" alt="Game 2">
+    <img src="assets/images/emma.jpg" alt="Teams">
+    <img src="assets/images/queens.jpg" alt="Fans">
+    <img src="assets/images/bryan.jpg" alt="Action">
+</div>
+
+<script>
+    const images = document.querySelectorAll('.image-scroll img');
+    let currentIndex = 0;
+
+    function showNextImage() {
+        images[currentIndex].classList.remove('active');
+        currentIndex = (currentIndex + 1) % images.length;
+        images[currentIndex].classList.add('active');
+    }
+
+    setInterval(showNextImage, 3000);
+
+    // Swipe support for mobile
+    let touchStartX = 0;
+    let touchEndX = 0;
+
+    document.querySelector('.image-scroll').addEventListener('touchstart', (e) => {
+        touchStartX = e.changedTouches[0].screenX;
+    });
+
+    document.querySelector('.image-scroll').addEventListener('touchend', (e) => {
+        touchEndX = e.changedTouches[0].screenX;
+        handleGesture();
+    });
+
+    function handleGesture() {
+        if (touchEndX < touchStartX - 50) {
+            showNextImage();
+        } else if (touchEndX > touchStartX + 50) {
+            images[currentIndex].classList.remove('active');
+            currentIndex = (currentIndex - 1 + images.length) % images.length;
+            images[currentIndex].classList.add('active');
+        }
+    }
+</script>
+</body>
+</html>

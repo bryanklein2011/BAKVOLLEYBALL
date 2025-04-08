@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BAK Volleyball | Youth Training</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap');
+
+    body {
+      margin: 0;
+      font-family: 'Rubik', sans-serif;
+      background-color: #000;
+      color: #00BFFF;
+      padding: 20px;
+      overflow-x: hidden;
+      position: relative;
+    }
+
+    .background-float {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 900px;
+      height: 900px;
+      opacity: 0.03;
+      z-index: 0;
+      animation: spin 60s linear infinite;
+      pointer-events: none;
+    }
+
+    @keyframes spin {
+      0% { transform: translate(-50%, -50%) rotate(0deg); }
+      100% { transform: translate(-50%, -50%) rotate(360deg); }
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+      position: relative;
+      z-index: 1;
+    }
+
+    header h1 {
+      font-size: 3em;
+      color: #00ffff;
+      text-shadow: 2px 2px #444;
+      animation: popIn 1s ease-out forwards;
+    }
+
+    .home-button {
+      position: fixed;
+      top: 20px;
+      left: 20px;
+      background: #00BFFF;
+      color: #000;
+      padding: 10px 15px;
+      border-radius: 8px;
+      font-weight: bold;
+      text-decoration: none;
+      z-index: 2;
+    }
+
+    @keyframes popIn {
+      0% { transform: scale(0.8); opacity: 0; }
+      100% { transform: scale(1); opacity: 1; }
+    }
+
+    section {
+      max-width: 900px;
+      margin: 40px auto;
+      background: #111;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px #00BFFF55;
+      position: relative;
+      z-index: 1;
+    }
+
+    section h2 {
+      animation: fadeSlide 1s ease-in-out both;
+      font-size: 2em;
+      color: #00ffff;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    section p, section li {
+      font-size: 1.1em;
+      line-height: 1.6;
+      color: #ccc;
+    }
+
+    .coaches {
+      display: flex;
+      justify-content: space-around;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .coach {
+      background: #222;
+      padding: 15px;
+      border-radius: 10px;
+      border-left: 5px solid #00BFFF;
+      width: 260px;
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .coach:hover {
+      transform: scale(1.03);
+      box-shadow: 0 0 15px #00BFFF88;
+    }
+
+    .coach img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+
+    .events .event {
+      background: linear-gradient(135deg, #00BFFF44, #007ACC44);
+      padding: 15px;
+      margin-bottom: 15px;
+      border-radius: 10px;
+      border-left: 4px solid #00BFFF;
+      transition: transform 0.3s ease;
+    }
+
+    .events .event:hover {
+      transform: scale(1.03);
+      box-shadow: 0 0 15px #00BFFF88;
+    }
+
+    .signup {
+      text-align: center;
+    }
+
+    .signup a {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 20px;
+      background: #00BFFF;
+      color: #000;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+
+    .signup a:hover {
+      background: #00a4cc;
+    }
+    .fun-button {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 24px;
+      background: #00BFFF;
+      color: #000;
+      font-weight: bold;
+      border-radius: 10px;
+      text-decoration: none;
+      box-shadow: 0 0 10px #00BFFF88;
+      transition: transform 0.3s ease, background-color 0.3s ease;
+    }
+
+    .fun-button:hover {
+      background-color: #00a4cc;
+      transform: scale(1.05);
+    }
+    .pulse {
+      animation: pulse 1.8s infinite;
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1); box-shadow: 0 0 10px #00BFFF88; }
+      50% { transform: scale(1.05); box-shadow: 0 0 20px #00BFFFaa; }
+      100% { transform: scale(1); box-shadow: 0 0 10px #00BFFF88; }
+    }
+    .carousel {
+      overflow: hidden;
+      position: relative;
+      width: 100%;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .carousel-track {
+      display: flex;
+      width: calc(280px * 4);
+      animation: scrollCarousel 12s linear infinite;
+      gap: 20px;
+    }
+
+    .carousel-track img {
+      width: 280px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+      border: 3px solid #00BFFF;
+      flex-shrink: 0;
+    }
+
+    @keyframes scrollCarousel {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-50%); }
+    }
+    100% { transform: translateX(-100%); }
+    }
+    100% { transform: translateX(-50%); }
+    }
+
+    @keyframes fadeSlide {
+      0% {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+
+    .carousel-track.duplicated::after {
+      content: '';
+      display: block;
+    }
+  </style>
+</head>
+<body>
+<a href="index.html" class="home-button" style="position: absolute; top: 10px; left: 50%; transform: translateX(-50%); font-size: 0.9em; padding: 6px 12px;">🏠 Home</a>
+<img src="assets/images/bak.PNG" class="background-float" alt="Floating Volleyball">
+<header>
+  <h1>BAK Youth Beach Volleyball</h1>
+</header>
+
+<section>
+  <h2>Upcoming Prospects</h2>
+  <p style="text-align:center; color:#b2f0ff; font-size:1.1em; margin-top:-10px;">Click on their picture to view their Instagram!</p>
+  <div class="carousel">
+    <div class="carousel-track">
+      <a href="https://www.instagram.com/alyssa_bendinskas_2026/" target="_blank"><img src="assets/images/lyss.jpg" alt="Alyssa Training"></a>
+      <a href="https://www.instagram.com/jasmn_martinez07/" target="_blank"><img src="assets/images/jazmine.jpg" alt="Jasmine"></a>
+      <a href="https://www.instagram.com/madi_pruitt_volleyball_2026/tagged/" target="_blank"><img src="assets/images/madi.jpg" alt="Sand Play"></a>
+      <a href="https://www.instagram.com/alyssa_bendinskas_2026/" target="_blank"><img src="assets/images/lyss.jpg" alt="Alyssa Training"></a>
+      <a href="https://www.instagram.com/jasmn_martinez07/" target="_blank"><img src="assets/images/jazmine.jpg" alt="Jasmine"></a>
+      <a href="https://www.instagram.com/madi_pruitt_volleyball_2026/tagged/" target="_blank"><img src="assets/images/madi.jpg" alt="Sand Play"></a>
+    </div>
+  </div>
+</section>
+
+<section class="rankings">
+  <h2>🏆 Rankings & Highlights</h2>
+
+  <div class="ranking">
+    <h3>3rd in the Nation – Beach Nationals</h3>
+    <p>Top finish at BVCA INVITE ONLY Beach Nationals. Our athletes stood out among the nation's best.</p>
+  </div>
+
+  <div class="ranking">
+    <h3>Top 5 National Club</h3>
+    <p>Nationally ranked as one of the top 5 beach clubs in the USA for youth athlete development.</p>
+  </div>
+
+  <div class="ranking">
+    <h3>🥇 Crossover Team Success</h3>
+    <p>Our 18U crossover team placed <strong>3rd at Crossroads (Open)</strong> and <strong>won Nashville</strong> to qualify for USAV Nationals!</p>
+  </div>
+
+  <div class="ranking-images" style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin-top: 20px;">
+    <div style="flex: 1 1 220px; max-width: 220px;">
+      <img src="assets/images/crossroads.JPG" alt="Crossroads Podium" style="width: 100%; height: 150px; object-fit: cover; border-radius: 10px; border: 3px solid #00BFFF;">
+    </div>
+    <div style="flex: 1 1 220px; max-width: 220px;">
+      <img src="assets/images/nashvilee.jpg" alt="Nashville Champions" style="width: 100%; height: 150px; object-fit: cover; border-radius: 10px; border: 3px solid #00BFFF;">
+    </div>
+    <div style="flex: 1 1 220px; max-width: 220px;">
+      <img src="assets/images/3rd.jpg" alt="BVCA Nationals" style="width: 100%; height: 150px; object-fit: cover; border-radius: 10px; border: 3px solid #00BFFF;">
+    </div>
+  </div>
+</section>
+
+
+<section class="signup">
+  <h2>📋 Sign Up for Summer Beach Volleyball</h2>
+  <p style="font-size: 1.2em; color: #b2f0ff; max-width: 700px; margin: 0 auto 20px;">
+    Ready to train and compete with one of the top clubs in the nation? Don’t miss your chance to join the sand family and develop your game this summer with elite-level coaching, fun competitions, and more!
+  </p>
+  <a href="https://bak.volleyballlife.com/tournament/26975?tab=information" target="_blank" class="fun-button pulse">🏐 Register via Volleyball Life</a>
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLSdl4HQQJMgMMmfbw8BnymVA4uETgSvx8Xf1WYGKJ6rnuvyGeA/viewform?usp=header" target="_blank" class="fun-button pulse">📝 Fill Out Google Form</a>
+</section>
+
+<section class="coaches">
+  <h2>Meet the Coaches</h2>
+  <div class="coach-wrapper">
+    <div class="coach">
+      <img src="assets/images/si.jpg" alt="Coach Sierra">
+      <h3>Coach Sierra Land</h3>
+      <p>Boise State beach volleyball alum. Sierra brings collegiate experience and a fierce passion for youth development. She's known for her leadership and attention to detail in training athletes for the next level.</p>
+    </div>
+    <div class="coach">
+      <img src="assets/images/bryan.jpg" alt="Coach Bryan">
+      <h3>Coach Bryan Klein</h3>
+      <p>Co-founder of BAK Volleyball. Bryan has coached dozens of national qualifiers and built one of the country's most respected beach programs. He’s driven by development and success on and off the court.</p>
+    </div>
+  </div>
+</section>
+
+<style>
+  .coach-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+  }
+
+  .coach {
+    background: #222;
+    padding: 20px;
+    border-radius: 12px;
+    width: 280px;
+    text-align: center;
+    border: 2px solid #00BFFF;
+    box-shadow: 0 0 10px #00BFFF55;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+  }
+
+  .coach:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 0 20px #00BFFFaa;
+  }
+
+  .coach img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+</style>
+
+<section class="events">
+  <h2>Upcoming Events</h2>
+  <div class="event">
+    <h3>April Training – Spring Kickoff</h3>
+    <p>Join us for a month of skills and training. All athletes welcome!</p>
+  </div>
+  <div class="event">
+    <h3>May 2 – NATIONAL TEAM TRYOUT</h3>
+      🚨 BAK Black Tryouts — Team is Limited to the first 10 athletes!</p>
+  </div>
+  <div class="event">
+    <h3>May 5th – Summer Training Begins</h3>
+      <p> Introducing the BAK Sand Volleyball Summer Program — A TRUE VOLLEYBALL BEACH PROGRAM for both Boys & Girls, offering opportunities for all ages and skill levels! Whether you’re looking to train locally or compete nationally, we’ve got a program for YOU! 🔥
+  </p>
+  </div>
+</section>
+
+<section class="testimonials">
+  <h2>What Our Athletes Say</h2>
+  <div class="testimonial">
+    <p>"BAK Volleyball holds a special place in my heart. It's where my love for beach volleyball was born and nurtured. The incredible team helped turn uncertainty into passion."</p>
+    <h3>– Madison Pruitt (New Mexico)</h3>
+  </div>
+  <div class="testimonial">
+    <p>"Thanks to BAK's guidance, I earned a spot on Pepperdine's beach team. They prepared and supported me every step of the way."</p>
+    <h3>– Emma Eden (Pepperdine)</h3>
+  </div>
+  <div class="testimonial">
+    <p>"Entering St. Mary’s, I was confident and skilled thanks to BAK. The experience shaped me as both a player and a person."</p>
+    <h3>– Cameron Martinez (St. Mary’s)</h3>
+  </div>
+</section>
+
+<section class="contact">
+  <h2>📬 Get in Touch</h2>
+
+
+  <div class="links" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 15px; margin-top: 20px;">
+    <a href="mailto:info@bakvolleyball.com" class="fun-button">✉️ Email Us</a>
+    <a href="tel:5053100047" class="fun-button">📱 Call or Text</a>
+    <a href="https://bak.volleyballlife.com" class="fun-button" target="_blank">🏐 Volleyball Life</a>
+    <a href="https://groupme.com/join_group/105807910/pxl0ZIZV" class="fun-button" target="_blank">💬 Join GroupMe</a>
+  </div>
+</section>
+
+
+</body>
+</html>

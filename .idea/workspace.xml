@@ -1,11 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="019c8026-7059-48d5-9339-540a563f54be" name="Changes" comment="NEW WEBSITE" />
+    <list default="true" id="019c8026-7059-48d5-9339-540a563f54be" name="Changes" comment="NEW WEBSITE">
+      <change afterPath="$PROJECT_DIR$/Adult.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BAKPrints.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tournament.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/3rd.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/BAKLOGO.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Jaz.JPEG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Madison.JPEG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/bak.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/bryan.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/cold.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/crossroads.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/jazmine.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/johnandrich.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/maddie.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/nashvilee.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/pickleball.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/queens.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/sandiacovid.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/si.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/sierrra.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/sizzle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/youth.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -25,6 +57,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -39,17 +72,18 @@
       <recent name="C:\Users\bryan\OneDrive\Desktop\bootcamp\git\BAKVOLLEYBALL\Personal\assets\img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\bryan\OneDrive\Desktop\bootcamp\git\BAKVOLLEYBALL\assets\images" />
       <recent name="C:\Users\bryan\OneDrive\Desktop\bootcamp\git\BAKVOLLEYBALL" />
       <recent name="C:\Users\bryan\OneDrive\Desktop\bootcamp\git\BAKVOLLEYBALL\assets" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/BAKVOLLEYBALL/index.html" useBuiltInWebServerPort="true">
+    <configuration name="Adult.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/BAKVOLLEYBALL/Adult.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.Adult.html" />
       </list>
     </recent_temporary>
   </component>
@@ -65,6 +99,12 @@
       <workItem from="1710300172950" duration="9000" />
       <workItem from="1710358694771" duration="1349000" />
       <workItem from="1719539837553" duration="3652000" />
+      <workItem from="1719963188048" duration="277000" />
+      <workItem from="1722530525943" duration="460000" />
+      <workItem from="1722546325951" duration="97000" />
+      <workItem from="1741477864845" duration="5138000" />
+      <workItem from="1743183870175" duration="9000" />
+      <workItem from="1744135585341" duration="12282000" />
     </task>
     <task id="LOCAL-00001" summary="first draft">
       <created>1709849412904</created>
@@ -150,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1719543525122</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="NEW WEBSITE">
+      <created>1719963417220</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1719963417220</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,7 +208,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
