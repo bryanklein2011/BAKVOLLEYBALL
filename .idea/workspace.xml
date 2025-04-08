@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="019c8026-7059-48d5-9339-540a563f54be" name="Changes" comment="NEW WEBSITE">
+    <list default="true" id="019c8026-7059-48d5-9339-540a563f54be" name="Changes" comment="NEW NEW">
       <change afterPath="$PROJECT_DIR$/Adult.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/BAKPrints.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Tournament.html" afterDir="false" />
@@ -15,6 +15,7 @@
       <change afterPath="$PROJECT_DIR$/assets/images/crossroads.JPG" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/assets/images/jazmine.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/assets/images/johnandrich.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/jsoh.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/assets/images/maddie.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/assets/images/nashvilee.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/assets/images/pickleball.jpg" afterDir="false" />
@@ -104,7 +105,7 @@
       <workItem from="1722546325951" duration="97000" />
       <workItem from="1741477864845" duration="5138000" />
       <workItem from="1743183870175" duration="9000" />
-      <workItem from="1744135585341" duration="12282000" />
+      <workItem from="1744135585341" duration="12614000" />
     </task>
     <task id="LOCAL-00001" summary="first draft">
       <created>1709849412904</created>
@@ -197,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1719963417220</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="NEW NEW">
+      <created>1744148950702</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1744148950702</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,6 +237,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first draft" />
     <MESSAGE value="NEW WEBSITE" />
-    <option name="LAST_COMMIT_MESSAGE" value="NEW WEBSITE" />
+    <MESSAGE value="NEW NEW" />
+    <option name="LAST_COMMIT_MESSAGE" value="NEW NEW" />
   </component>
 </project>
