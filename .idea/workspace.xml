@@ -1,32 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="019c8026-7059-48d5-9339-540a563f54be" name="Changes" comment="NEW NEW">
-      <change afterPath="$PROJECT_DIR$/Adult.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BAKPrints.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tournament.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/3rd.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/BAKLOGO.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/Jaz.JPEG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/Madison.JPEG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/bak.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/bryan.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/cold.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/crossroads.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/jazmine.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/johnandrich.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/jsoh.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/maddie.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/nashvilee.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/pickleball.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/queens.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/sandiacovid.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/si.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/sierrra.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/sizzle.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/youth.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tournament.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tournament.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youth.html" beforeDir="false" afterPath="$PROJECT_DIR$/youth.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,24 +29,46 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;bryanklein2011&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/bryanklein2011/BAKVOLLEYBALL.git&quot;,
+    &quot;accountId&quot;: &quot;5717d5d6-001a-4154-ae5b-16503b51db49&quot;
+  }
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2dNHFW0YloqBxeVLDWv66RueDIU" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/bryan/OneDrive/Desktop/bootcamp/git/BAKVOLLEYBALL/assets/images",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/bryan/OneDrive/Desktop/bootcamp/git/BAKVOLLEYBALL/assets/images&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\bryan\OneDrive\Desktop\bootcamp\git\BAKVOLLEYBALL\assets\images" />
@@ -88,6 +91,13 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-WS-243.26053.12" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -106,6 +116,9 @@
       <workItem from="1741477864845" duration="5138000" />
       <workItem from="1743183870175" duration="9000" />
       <workItem from="1744135585341" duration="12614000" />
+      <workItem from="1744307526001" duration="285000" />
+      <workItem from="1744311674025" duration="1823000" />
+      <workItem from="1748570227175" duration="966000" />
     </task>
     <task id="LOCAL-00001" summary="first draft">
       <created>1709849412904</created>
